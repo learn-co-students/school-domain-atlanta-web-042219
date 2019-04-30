@@ -24,9 +24,7 @@ class School
         end
     end
 
-    binding.pry
-    def sort(roster)
-        
-     puts roster
+    def sort
+        @roster.sort
     end
 end
